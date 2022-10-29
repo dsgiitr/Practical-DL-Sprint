@@ -1,4 +1,4 @@
-# Sprint #1 Assignment (30<sup>th</sup> October 2022)
+# Sprint #1 Assignment (1<sup>st</sup> November 2022)
 
 ### 1. Basic Deep Learning task
 
@@ -49,11 +49,12 @@ def get_kernel(name):
 
 ### 3. Check your implementation
 
-Use [this](../assets/Sprint1-30-Oct-22/final.jpg) image for the following steps:
-<img src="../assets/Sprint1-30-Oct-22/final.jpg" width="400">
+Use [this](../assets/Sprint1-1-Nov-22/final.jpg) image for the following steps:
+<img src="../assets/Sprint1-1-Nov-22/final.jpg" width="400">
 
 - Apply the Gaussian filter on the image. Call the output `smoothened`
 - Apply the Sobel X and Sobel Y filters on `smoothened`. Call them `sobel_x` and `sobel_y` respectively.
 - Calculate the gradient magnitude: $I_{xy} = \sqrt{I_x(x,y)^2 + I_y(x,y)^2}$ where $I_x$ is `sobel_x`, $I_y$ is `sobel_y` and $(x, y)$ represents a particular pixel.
 - Display this gradient magnitude
-- The final result shall look like this. <img src="../assets/Sprint1-30-Oct-22/result.jpg" width="400">
+- The final result shall look like this. 
+<img src="../assets/Sprint1-1-Nov-22/result.jpg" width="400">
